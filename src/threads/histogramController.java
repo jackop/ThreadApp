@@ -50,8 +50,8 @@ public class histogramController {
 
         chart.setBackgroundPaint(Color.white);
 
-        int width = 2000;
-        int height = 1500;
+        int width = 800;
+        int height = 600;
         ChartUtilities.saveChartAsPNG(new File("histogram.PNG"), chart, width, height);
 
         return chart;
